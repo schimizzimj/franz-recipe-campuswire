@@ -3,9 +3,15 @@ module.exports = (Franz) => {
     let direct = 0;
     let indirect = 0;
     const FranzData = document.querySelector('.feeds-home>.feed-title:nth-child(3)>.unreadpost-badge').innerHTML;
+    const directArray = document.querySelectorAll('.dm-list .badge');
+
+    for (var i = directArray.length - 1; i >= 0; i--) {
+      direct += Number(directArray[i].innerHTML);
+    }
+
 
     if (FranzData) {
-      direct = 0;
+      console.log(direct);
       console.log(Number(FranzData));
       indirect = Number(FranzData);
     }
