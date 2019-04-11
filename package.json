@@ -1,0 +1,24 @@
+{
+  "id": "campuswire",
+  "name": "Campuswire",
+  "version": "1.0.1",
+  "description": "Campuswire",
+  "main": "index.js",
+  "author": "Marcus Schimizzi <mschimiz@nd.edu>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://campuswire.com/",
+    "serviceName": "Campuswire",
+    "message": "Q&A, announcements and discussion for college classes.",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": true,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
