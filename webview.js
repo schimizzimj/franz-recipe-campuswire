@@ -5,6 +5,8 @@ module.exports = (Franz) => {
     const FranzData = document.querySelector('.feeds-home>.feed-title:nth-child(3)>.unreadpost-badge').innerHTML;
     const directArray = document.querySelectorAll('.dm-list .badge');
 
+    console.log(directArray.length);
+
     for (var i = directArray.length - 1; i >= 0; i--) {
       direct += Number(directArray[i].innerHTML);
     }
