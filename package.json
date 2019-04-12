@@ -7,7 +7,7 @@
   "author": "Marcus Schimizzi <mschimiz@nd.edu>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://campuswire.com/",
+    "serviceURL": "https://campuswire.com/c",
     "serviceName": "Campuswire",
     "message": "Q&A, announcements and discussion for college classes.",
     "popup": [],
