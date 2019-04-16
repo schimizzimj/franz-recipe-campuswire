@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Campuswire",
   "main": "index.js",
-  "author": "Marcus Schimizzi <mschimiz@nd.edu>",
+  "author": "Marcus Schimizzi <mschimiz@nd.edu>, Justin Peek, Paul Githens, and Jin Kim",
   "license": "MIT",
   "config": {
     "serviceURL": "https://campuswire.com/c",
